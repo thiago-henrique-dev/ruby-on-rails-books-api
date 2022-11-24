@@ -5,12 +5,10 @@ class BooksController < ApplicationController
   def index
     @books = Book.all
 
-    render json: @books
   end
 
   # GET /books/1
   def show
-    render json: @book
   end
 
   # POST /books

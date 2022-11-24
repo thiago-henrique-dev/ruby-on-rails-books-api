@@ -13,7 +13,8 @@ gem "sqlite3", "~> 1.4"
 gem "puma", "~> 5.0"
 
 # Build JSON APIs with ease [https://github.com/rails/jbuilder]
-# gem "jbuilder"
+gem "jbuilder",  "~> 2.7"
+gem 'jbuilder_cache_multi'
 
 # Use Redis adapter to run Action Cable in production
 # gem "redis", "~> 4.0"
