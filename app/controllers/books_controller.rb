@@ -4,13 +4,13 @@ class BooksController < ApplicationController
   # GET /books
   def index
     @books = Book.all
+    render json: @books
   end
 
   # GET /books/1
   def show
-    
+    render json: @books
   end
-
   # POST /books
   def create
     @book = Book.new(book_params)
