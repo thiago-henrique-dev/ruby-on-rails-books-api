@@ -108,8 +108,11 @@ GEM
     nio4r (2.5.8)
     nokogiri (1.13.9-x86_64-linux)
       racc (~> 1.4)
+    oj (3.13.23)
     puma (5.6.5)
       nio4r (~> 2.0)
+    rabl (0.16.1)
+      activesupport (>= 2.3.14)
     racc (1.6.0)
     rack (2.2.4)
     rack-test (2.0.2)
@@ -161,7 +164,9 @@ DEPENDENCIES
   debug
   jbuilder (~> 2.7)
   jbuilder_cache_multi
+  oj
   puma (~> 5.0)
+  rabl
   rails (~> 7.0.4)
   sqlite3 (~> 1.4)
   tzinfo-data
