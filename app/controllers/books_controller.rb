@@ -4,11 +4,11 @@ class BooksController < ApplicationController
   # GET /books
   def index
     @books = Book.all
-
   end
 
   # GET /books/1
   def show
+    
   end
 
   # POST /books
